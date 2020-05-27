@@ -1,0 +1,61 @@
+.yt{
+    /* margin-top: 100px; */
+    /* margin-left: 380px;             */
+}
+
+.twitter{
+    /* margin-top: 100px; */
+    /* margin-left: 400px; */
+}
+a{
+    color: white;
+    text-decoration:none;            
+}
+header {
+    padding: 0px 10px 10px 10px;
+    border:20px;
+}
+
+body{
+    padding-top: 20px;
+    margin-top: 200px;
+    margin-left: 900px;
+    margin: 0 auto;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/710/191/733/1920x1080-px-8-bit-pixel-art-retro-games-wallpaper-preview.jpg);
+}
+
+.menu-op{
+    position: sticky;
+    /* top: -10%; */
+    background-color: rgba(0,0,5,0.8);
+    padding: 10px 0px 10px 10px;
+    /* color: white; */
+    margin: 10 auto;
+    /* overflow: hidden; */
+
+    /* padding-left: 300px; */
+    /* float: left; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a{
+    padding-left: 200px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    /* color: white; */
+    text-decoration: none;    
+}
+
+.menu-log {
+    padding-left: 220px;
+    right: auto;
+    float: left;
+}

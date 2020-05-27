@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/710/191/733/1920x1080-px-8-bit-pixel-art-retro-games-wallpaper-preview.jpg);
+}
+
+form{
+    margin-top: 15vh;
+}
+
+form label{
+    font-weight: bold;
+    color: white;
+}
+
+.form-control{
+    margin: auto;
+    width: 30%;
+}

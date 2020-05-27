@@ -1,0 +1,40 @@
+{% include 'topo/cabecalho.html' %}
+
+<link rel="stylesheet" href="{{url_for('static', filename='menu.css')}} ">
+
+    
+<div class="text-center">
+    {% if message != None %}
+        {% if message[:1] == 'O' %}
+        <div class="alert alert-success" role="alert">
+            <strong>{{message}}</strong>
+        </div>
+        {% elif message[:1] == 'F' %}
+            <div class="alert alert-danger" role="alert">
+                <strong>{{message}}</strong>
+            </div>
+        {% endif %}
+    {% endif %}
+    
+
+            <div class="menu-op">
+                <div class="iens-op">
+                    <a href="{{url_for('register')}}">Cadastrar cliente</a>
+                </div>
+            </div>
+            <!-- <div class="d-flex"> -->
+
+                <div class="twitter">
+                    <a class="twitter-timeline" data-lang="pt" data-width="500" data-height="500" data-theme="dark" href="https://twitter.com/GamesRrg?ref_src=twsrc%5Etfw">Tweets by GamesRrg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                
+                <div class="yt m-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EyCZP1wDxEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            <!-- </div> -->
+        </div>
+
+    </div>
+        
+</body>
+</html>
