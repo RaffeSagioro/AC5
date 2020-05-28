@@ -13,7 +13,7 @@
                 const nome_cliente = document.getElementById('nome_cliente');
                 const login = document.getElementById('login');
                 const senha = document.getElementById('senha');
-                const cpf = document.getElementById('cpf');
+                const cep = document.getElementById('cep');
 
 
                 if (nome_cliente.value === 'Digite o Nome') {
@@ -28,8 +28,8 @@
                     alert("Insira sua senha.");
                     return false;
                 }
-                if (cpf.value == "CPF do Usuario") {
-                    alert("Insira seu CPF.");
+                if (cep.value == "CEP do Usuario") {
+                    alert("Insira seu CEP.");
                     return false;
                 }                
                 return true;
@@ -64,8 +64,8 @@
 
             </p>
             <p>
-                <label for="cpf">CPF:</label>
-                <input type="text" id="cpf" name="cpf" autocomplete="off" value="{{cpf}}" />
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" autocomplete="off" value="{{cep}}" />
 
             </p>            
             <p>
